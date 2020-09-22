@@ -18,7 +18,7 @@ function App() {
     const response = await api.post('repositories', {
       title: `Novo Repositorio ${Date.now()}`,
       url: "www.terra.com.br",
-      techs: [ "Juca", "Teste", "PUTA" ],
+      techs: [ "Juca", "Teste" ],
       likes: 0
     })
 
